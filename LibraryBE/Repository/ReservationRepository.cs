@@ -18,6 +18,11 @@ namespace LibraryBE.Repository
             return _context.Reservations.OrderBy(r => r.id_Reservation).ToList();
         }
 
+        public ICollection<Reservation> GetAllReservationsByUserId(int userId)
+        {
+            return _context.Reservations.Where(r => r.id_User == userId).OrderBy(r=>r.id_Reservation).ToList();
+        }
+
         public Reservation GetReservation(int id)
         {
             return _context.Reservations.Where(r => r.id_Reservation == id).FirstOrDefault();

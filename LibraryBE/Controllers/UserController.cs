@@ -2,6 +2,7 @@
 using LibraryBE.DTO;
 using LibraryBE.Interfaces;
 using LibraryBE.Models;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryBE.Controllers
@@ -44,13 +45,32 @@ namespace LibraryBE.Controllers
             {
                 return NotFound();
             }
-            var recipe = _mapper.Map<UserDto>(_userRepository.GetUser(id));
+            var user = _mapper.Map<UserDto>(_userRepository.GetUser(id));
 
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            return Ok(recipe);
+            return Ok(user);
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginDto login)
+        {
+            if (string.IsNullOrEmpty(login.Email) || string.IsNullOrEmpty(login.Password))
+            {
+                return BadRequest("Email and password are required.");
+            }
+            var user = _userRepository.Login(login.Email, login.Password);
+
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
+            var userDto = _mapper.Map<UserDto>(user);
+            return Ok(userDto);
+
         }
 
 

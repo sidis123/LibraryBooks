@@ -22,6 +22,12 @@ namespace LibraryBE.Repository
             return _context.Users.Where(u => u.id_User == id).FirstOrDefault();
         }
 
+        public User Login(string email, string password)
+        {
+            var user = _context.Users.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
+            return user;
+        }
+
         public bool Save()
         {
             var saved = _context.SaveChanges();

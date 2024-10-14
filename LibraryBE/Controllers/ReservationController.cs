@@ -47,5 +47,17 @@ namespace LibraryBE.Controllers
             }
             return Ok(reservation);
         }
+
+        [HttpGet("user/{Userid}")]
+        [ProducesResponseType(200, Type = typeof(IEnumerable<Reservation>))]
+        public IActionResult GetReservations(int Userid)
+        {
+            var reservations = _mapper.Map<List<ReservationDto>>(_reservationRepository.GetAllReservationsByUserId(Userid));
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            return Ok(reservations);
+        }
     }
 }
