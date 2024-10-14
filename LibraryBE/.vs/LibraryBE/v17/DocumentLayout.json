@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|c:\\users\\tnaru\\desktop\\present connection app\\librarybooks\\librarybe\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|solutionrelative:seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|c:\\users\\tnaru\\desktop\\present connection app\\librarybooks\\librarybe\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,10 +82,6 @@
       "RelativeMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|solutionrelative:interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|c:\\users\\tnaru\\desktop\\present connection app\\librarybooks\\librarybe\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|solutionrelative:seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|c:\\users\\tnaru\\desktop\\present connection app\\librarybooks\\librarybe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CB818845-E1C7-4260-9163-8947BB768D64}|LibraryBE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -97,23 +97,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAIUUAAAAAAAAAAAAwJUUAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-13T21:01:09.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BookDto.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\DTO\\BookDto.cs",
               "RelativeDocumentMoniker": "DTO\\BookDto.cs",
@@ -125,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\DTO\\UserDto.cs",
               "RelativeDocumentMoniker": "DTO\\UserDto.cs",
@@ -137,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Helper\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "Helper\\MappingProfiles.cs",
@@ -149,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
@@ -157,12 +145,11 @@
               "RelativeToolTip": "Controllers\\BookController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:44:32.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T19:44:32.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IBookRepository.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Interfaces\\IBookRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IBookRepository.cs",
@@ -174,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
@@ -182,12 +169,11 @@
               "RelativeToolTip": "Controllers\\ReservationController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:47:10.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T19:47:10.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -195,12 +181,11 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:47:18.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T19:47:18.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "Data\\DataContext.cs",
@@ -212,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
@@ -230,14 +215,38 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABMAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAQwEEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T19:47:28.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Seed.cs",
+              "RelativeDocumentMoniker": "Seed.cs",
+              "ToolTip": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Seed.cs",
+              "RelativeToolTip": "Seed.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCQAAACwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:20:25.023Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAIUUAAAAAAAAAAAAwJUUAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-13T21:01:09.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Repository\\BookRepository.cs",
               "RelativeDocumentMoniker": "Repository\\BookRepository.cs",
@@ -249,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -261,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ReservationDto.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\DTO\\ReservationDto.cs",
               "RelativeDocumentMoniker": "DTO\\ReservationDto.cs",
@@ -273,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "Models\\Reservation.cs",
@@ -285,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ReservationRepository.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Repository\\ReservationRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ReservationRepository.cs",
@@ -297,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IReservationRepository.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Interfaces\\IReservationRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IReservationRepository.cs",
@@ -309,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
@@ -321,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
@@ -342,18 +351,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T20:32:20.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Seed.cs",
-              "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Seed.cs",
-              "RelativeDocumentMoniker": "Seed.cs",
-              "ToolTip": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Seed.cs",
-              "RelativeToolTip": "Seed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:20:25.023Z"
             },
             {
               "$type": "Document",

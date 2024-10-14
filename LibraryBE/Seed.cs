@@ -31,10 +31,10 @@ namespace LibraryBE
                 // Create sample books (including audiobooks)
                 var books = new List<Book>()
                 {
-                    new Book { Name = "To Kill a Mockingbird", Year = 1960, Type = "Book", Picture = "mockingbird.jpg" },
-                    new Book { Name = "1984", Year = 1949, Type = "Book", Picture = "1984.jpg" },
-                    new Book { Name = "The Great Gatsby", Year = 1925, Type = "Audiobook", Picture = "gatsby.jpg" },
-                    new Book { Name = "The Catcher in the Rye", Year = 1951, Type = "Book", Picture = "catcher.jpg" }
+                    new Book { Name = "To Kill a Mockingbird", Year = 1960, Type = "Book", Picture = "https://upload.wikimedia.org/wikipedia/commons/4/4f/To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg" },
+                    new Book { Name = "1984", Year = 1949, Type = "Book", Picture = "https://s3.amazonaws.com/adg-bucket/1984-george-orwell/3423-medium.jpg" },
+                    new Book { Name = "The Great Gatsby", Year = 1925, Type = "Audiobook", Picture = "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg" },
+                    new Book { Name = "The Catcher in the Rye", Year = 1951, Type = "Book", Picture = "https://m.media-amazon.com/images/I/8125BDk3l9L._AC_UF1000,1000_QL80_.jpg" }
                 };
 
                 // Create sample reservations with total cost hardcoded as 100
