@@ -101,20 +101,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Models\\Reservation.cs",
-              "RelativeToolTip": "Models\\Reservation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T17:58:04.569Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -150,6 +138,31 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T19:42:36.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:47:28.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:58:04.569Z"
             },
             {
               "$type": "Document",
@@ -221,21 +234,7 @@
               "RelativeToolTip": "Data\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:43:31.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAQwEIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:47:28.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T19:43:31.481Z"
             },
             {
               "$type": "Document",

@@ -14,14 +14,6 @@ const Select = styled.select`
   max-width: 400px;
 `;
 
-const book1 = {
-  id_Book: "1",
-  Name: "To Kill a Bird",
-  Year: "1960",
-  Picture: "picture",
-  Type: "Book",
-};
-
 const App = () => {
   const [books, setBooks] = useState([]);
   const [filteredBooks, setFilteredBooks] = useState([]); // Books after filtering

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { login } from "./store"; // Import login action
+import { signIn } from "./authSlice";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -33,7 +33,7 @@ const Login = () => {
 
       const userData = await response.json();
 
-      dispatch(login(userData));
+      dispatch(signIn(userData));
       navigate("/");
     } catch (error) {
       setError(error.message);
