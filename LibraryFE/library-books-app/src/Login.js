@@ -12,12 +12,10 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-
     const loginData = {
-      Email: email, // Your email state variable
-      Password: password, // Your password state variable
+      Email: email,
+      Password: password,
     };
-
     try {
       const response = await fetch("https://localhost:7133/api/User/login", {
         method: "POST",
@@ -26,13 +24,10 @@ const Login = () => {
         },
         body: JSON.stringify(loginData),
       });
-
       if (!response.ok) {
         throw new Error("Login failed");
       }
-
       const userData = await response.json();
-
       dispatch(signIn(userData));
       navigate("/");
     } catch (error) {

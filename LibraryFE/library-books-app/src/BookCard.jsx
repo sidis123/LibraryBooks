@@ -1,8 +1,8 @@
 import React from "react";
 
-const BookCard = ({ book }) => {
+const BookCard = ({ book, onClick }) => {
   return (
-    <div className="movie">
+    <div className="book" onClick={() => onClick(book)}>
       <div>
         <p>{book.year}</p>
       </div>

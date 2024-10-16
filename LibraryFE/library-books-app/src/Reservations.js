@@ -1,13 +1,12 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import ReservationCard from "./ReservationCard";
 
 const Reservations = () => {
   const user = useSelector((state) => state.auth.user);
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
   const [reservations, setReservations] = useState([]);
-  const dispatch = useDispatch();
 
   const fetchReservations = async () => {
     const response = await fetch(

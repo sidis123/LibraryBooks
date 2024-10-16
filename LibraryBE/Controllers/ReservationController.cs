@@ -2,6 +2,7 @@
 using LibraryBE.DTO;
 using LibraryBE.Interfaces;
 using LibraryBE.Models;
+using LibraryBE.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryBE.Controllers
@@ -12,11 +13,13 @@ namespace LibraryBE.Controllers
     {
         private readonly IReservationRepository _reservationRepository;
         private readonly IMapper _mapper;
+        private readonly IBookRepository _bookRepository;
 
-        public ReservationController(IReservationRepository reservationRepository, IMapper mapper)
+        public ReservationController(IReservationRepository reservationRepository, IMapper mapper, IBookRepository bookRepository)
         {
             _reservationRepository = reservationRepository;
             _mapper = mapper;
+            _bookRepository = bookRepository;
         }
 
         [HttpGet]
@@ -59,5 +62,71 @@ namespace LibraryBE.Controllers
             }
             return Ok(reservations);
         }
+
+        [HttpPost]
+        [ProducesResponseType(201)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult CreateReservation([FromBody] ReservationDto reservationCreate)//reikia FromBody , nes jis paims data is jsono
+        {
+            if (reservationCreate == null)
+            {
+                return BadRequest(ModelState);
+            }
+            var reservation = _reservationRepository.GetAllReservations().Where(r => r.id_Reservation == reservationCreate.id_Reservation).FirstOrDefault();
+
+            if (reservation != null)
+            {
+                ModelState.AddModelError("", "Reservation allready exists");
+                return StatusCode(422, ModelState);
+            }
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var book = _bookRepository.GetBook(reservationCreate.id_Book);
+            var costPerDayPerType = 0;
+            if(book.Type == "Book")
+            {
+                costPerDayPerType = 2;
+            }
+            if(book.Type == "Audiobook")
+            {
+                costPerDayPerType = 3;
+            }
+            double costBeforeDiscount = costPerDayPerType * reservationCreate.Days;
+            if(reservationCreate.Days > 3)
+            {
+                costBeforeDiscount = costBeforeDiscount * 0.9;
+            }
+            if (reservationCreate.Days > 10)
+            {
+                costBeforeDiscount = costBeforeDiscount * 0.8;
+            }
+            double costAfterDiscount = costBeforeDiscount + 3;
+            if(reservationCreate.QuickPickup == true)
+            {
+                costAfterDiscount = costAfterDiscount + 5;
+            }
+            //var reservationMap = _mapper.Map<Reservation>(reservationCreate);
+            var reservationDto = new Reservation
+            {
+                id_Reservation = reservationCreate.id_Reservation,
+                CreationDate = DateTime.Now,
+                QuickPickup = reservationCreate.QuickPickup,
+                Days = reservationCreate.Days,
+                TotalCost = costAfterDiscount,
+                id_User = reservationCreate.id_User,
+                id_Book = reservationCreate.id_Book
+            };
+            if (!_reservationRepository.CreateReservation(reservationDto))
+            {
+                ModelState.AddModelError("", "Something went wrong while saving");
+                return StatusCode(500, ModelState);
+            }
+            return StatusCode(201, "Successfully created");
+        }
+
     }
 }

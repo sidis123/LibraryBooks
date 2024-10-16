@@ -1,7 +1,5 @@
-// authSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 
-// Get the initial user data from localStorage, if available
 const initialUser = JSON.parse(localStorage.getItem("user")) || null;
 
 const authSlice = createSlice({
@@ -14,7 +12,7 @@ const authSlice = createSlice({
     signIn: (state, action) => {
       state.user = action.payload;
       state.isLoggedIn = true;
-      const expiry = new Date().getTime() + 24 * 60 * 60 * 1000; // 1 day in ms
+      const expiry = new Date().getTime() + 24 * 60 * 60 * 1000;
       localStorage.setItem("user", JSON.stringify(action.payload));
       localStorage.setItem("expiry", expiry);
     },

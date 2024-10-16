@@ -7,6 +7,8 @@
         public bool QuickPickup { get; set; }
         public int Days { get; set; }
         public double TotalCost { get; set; }
+        public int id_User { get; set; }
         public int id_Book { get; set; }
+        
     }
 }

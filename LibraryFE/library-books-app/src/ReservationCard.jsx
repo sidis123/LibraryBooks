@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 
 const ReservationCard = ({ reservation }) => {
   const [book, setBook] = useState(null);
-
   const fetchReservations = async () => {
     const response = await fetch(
       `https://localhost:7133/api/Book/${reservation.id_Book}`
@@ -20,7 +19,7 @@ const ReservationCard = ({ reservation }) => {
         <p>Reservacijos id : {reservation.id_Reservation}</p>
         <p>Reservacijos dienu sk. : {reservation.days}</p>
         <p>Reservuota knyga : {reservation.id_Book}</p>
-        <p>Reservacijos visa kaina : {reservation.totalCost}</p>
+        <p>Reservacijos visa kaina Eurais : {reservation.totalCost}</p>
         <p>Reservuota knyga pavadinimas : {book ? book.name : "Loading..."}</p>
         <p>Reservacijos sukurimo data : {reservation.creationDate}</p>
       </div>

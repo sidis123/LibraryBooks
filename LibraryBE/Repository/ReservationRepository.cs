@@ -1,4 +1,5 @@
 ﻿using LibraryBE.Data;
+using LibraryBE.DTO;
 using LibraryBE.Interfaces;
 using LibraryBE.Models;
 
@@ -11,6 +12,12 @@ namespace LibraryBE.Repository
         public ReservationRepository(DataContext context)
         {
             _context = context;
+        }
+
+        public bool CreateReservation(Reservation reservation)
+        {
+            _context.Add(reservation);
+            return Save();
         }
 
         public ICollection<Reservation> GetAllReservations()

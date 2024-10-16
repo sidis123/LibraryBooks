@@ -1,4 +1,5 @@
-﻿using LibraryBE.Models;
+﻿using LibraryBE.DTO;
+using LibraryBE.Models;
 
 namespace LibraryBE.Interfaces
 {
@@ -8,6 +9,7 @@ namespace LibraryBE.Interfaces
         ICollection<Reservation> GetAllReservations();
         Reservation GetReservation(int id);
         bool ReservationExists(int id);
+        bool CreateReservation(Reservation reservation);
         bool Save();
     }
 }
