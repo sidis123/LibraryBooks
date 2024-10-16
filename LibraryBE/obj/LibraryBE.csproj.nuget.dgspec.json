@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\LibraryBE.csproj": {}
+    "C:\\Users\\tnaru\\Desktop\\Present connection app new\\LibraryBooks\\LibraryBE\\LibraryBE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\LibraryBE.csproj": {
+    "C:\\Users\\tnaru\\Desktop\\Present connection app new\\LibraryBooks\\LibraryBE\\LibraryBE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\LibraryBE.csproj",
+        "projectUniqueName": "C:\\Users\\tnaru\\Desktop\\Present connection app new\\LibraryBooks\\LibraryBE\\LibraryBE.csproj",
         "projectName": "LibraryBE",
-        "projectPath": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\LibraryBE.csproj",
+        "projectPath": "C:\\Users\\tnaru\\Desktop\\Present connection app new\\LibraryBooks\\LibraryBE\\LibraryBE.csproj",
         "packagesPath": "C:\\Users\\tnaru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tnaru\\Desktop\\Present Connection App\\LibraryBooks\\LibraryBE\\obj\\",
+        "outputPath": "C:\\Users\\tnaru\\Desktop\\Present connection app new\\LibraryBooks\\LibraryBE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
